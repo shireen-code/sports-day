@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="icon" href="#" />
+
+        <title>Location</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/all.css" rel="stylesheet" />
+       <link rel="stylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css">
+        <link href="css/custom.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+    <header>
+      <!-- Begin: Top Row -->
+      <div class="top-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END: Top Row -->
+
+      <!-- Begin: Bottom Row -->
+      <div class="bottom-row wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+        <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-3">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              <div class="row">
+                <div class="col-md-6 padd-zero">
+                  <a class="navbar-brand" href="index.html"><img alt="" src="images/logo.png"></a>
+                </div>
+                <div class="col-md-6 padd-zero">
+                    <a class="navbar-brand" href="#"><img alt="" src="images/map-01.png"></a>
+                </div>
+              </div>
+            </div>
+            </div>
+             
+             <div class="col-md-4">
+               <div class="hdr-serach">
+                 <form>
+                   <input type="" name="" placeholder="Serach...">
+                   <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                 </form>
+               </div>
+             </div>
+
+            <div class="col-md-5">
+            <nav class="navbar navbar-default">
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="matches.html">Matches</a></li>
+                <li><a href="location.html" class="active">Locations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#exampleModalCenter" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-user" aria-hidden="true"></i>Log In</a></li>
+              </ul>
+            </div>
+          </nav>
+          </div>
+
+         </div>
+        </div>
+      </div>
+      <!-- END: Bottom Row -->
+    </header>
+
+        <!-- Begin: Crousel -->
+        <div class="innerbanner locationbanner">
+            <div class="banner-img">
+                <img src="images/about-banner.jpg" alt="aboutbnner" width="100%" />
+                <div class="banner-text">
+                    <div class="formlist wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <select class="leftede">
+                                    <option>2 People</option>
+                                    <option>4 People</option>
+                                    <option>6 People</option>
+                                    <option>8 People</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                                
+                                <input type="text" class="dateselect customnclar" placeholder="Date" required="required"/>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                                <select class="">
+                                    <option>7:45 PM</option>
+                                    <option>9:45 PM</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5">
+                                <input type="text" name="" class="form-control" placeholder="Location, Restaurant , or Cuisine" />
+                                <a href="#" class="btn-default">Find a Table</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- locations sec -->
+
+        <div class="locations wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4">
+                        <h2>Choose your location</h2>
+
+                        <select>
+                            <option>Country</option>
+                        </select>
+
+                        <select>
+                            <option>City</option>
+                            
+                        </select>
+
+                        <div class="locationmap">
+                            <img src="images/locationmap.jpg" alt="maplocation" />
+                            <a href="#exampleModalCenter12" class="btn-default" data-toggle="modal" data-target="#exampleModalCenter12">View Map</a>
+                        </div>
+
+                        <div class="iconlist">
+                            <h3><img src="images/icon1.jpg" /> Dining Options</h3>
+                            <ul>
+                               
+                                <li>
+                                    <a href="#"><img src="images/icon2.jpg" /> Restaurants</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/icon3.jpg" /> Event</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/icon4.jpg" /> Sports Bar</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/icon5.jpg" /> Cafes</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="Cuisines">
+                            <h3>cuisines</h3>
+                            <div class="radio">
+                                <input id="radio-1" name="radio" type="radio" checked />
+                                <label for="radio-1" class="radio-label">Lorem ipsum</label>
+                            </div>
+
+                            <div class="radio">
+                                <input id="radio-2" name="radio" type="radio" />
+                                <label for="radio-2" class="radio-label">Lorem ipsum</label>
+                            </div>
+
+                            <div class="radio">
+                                <input id="radio-3" name="radio" type="radio" />
+                                <label for="radio-3" class="radio-label">Lorem ipsum</label>
+                            </div>
+                        </div>
+
+                       <!--  <div class="timesec">
+                            <h3><i class="fa fa-clock-o" aria-hidden="true"></i> Time</h3>
+                            <div class="boxes">
+                                <input type="checkbox" id="box-1" />
+                                <label for="box-1">Newly Added Restaurants</label>
+
+                                <input type="checkbox" id="box-2" checked />
+                                <label for="box-2">4:00 PM Only </label>
+
+                                <input type="checkbox" id="box-3" />
+                                <label for="box-3">1,000 Point Times</label>
+                            </div>
+                        </div> -->
+
+                        <div class="sportcate">
+                            <h3>Sports Category</h3>
+                            <p>football</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8">
+                        <div class="topbar-prd">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-7">
+                                    <p>3200 tables for 2 people on Wednesday, May 6, at 5:45 PM</p>
+                                    <hr />
+                                </div>
+                                <div class="col-md-4 col-sm-5">
+                                    <select>
+                                        <option>Featured</option>
+                                        <option>Top Rated</option>
+                                        <option>Nearby </option>
+                                        <option>Favourites</option>
+                                        
+                                    </select>
+                                    <p class="small">How are Featured results ranked</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row first">
+                            <div class="col-lg-4 col-md-4 col-sm-5">
+                                <img src="images/location-item.jpg" alt="location-item" width="100%" />
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-7">
+                                <h4><img src="images/small-icon.png" />Restaurant Name Here</h4>
+
+                                <div class="rewv">
+                                   <div class="rating">
+                        <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star2" name="rating" value="1"><label class="full" for="star2" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star3" name="rating" value="1"><label class="full" for="star3" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star4" name="rating" value="1"><label class="full" for="star4" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star5" name="rating" value="1"><label class="full" for="star5" title="Awesome - 1 stars"></label>
+                     </div>
+                                    <p>10337 Reviews</p>
+                                </div>
+
+                                <div class="tagtxt">
+                                    <p>$ $ <span>Asian </span> <span>London, England</span> 0.2 mi</p>
+                                </div>
+                                <a href="#fts" data-toggle="modal" data-target="#fts" class="btn-default">Request A Match</a>
+                                <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 123 46 789</a>
+
+                                <p class="despt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                            </div>
+                        </div>
+
+                        <div class="row first">
+                            <div class="col-lg-4 col-md-4 col-sm-5">
+                                <img src="images/location-item.jpg" alt="location-item" width="100%" />
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-7">
+                                <h4><img src="images/small-icon.png" />Restaurant Name Here</h4>
+
+                               <div class="rewv">
+                                   <div class="rating">
+                        <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star2" name="rating" value="1"><label class="full" for="star2" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star3" name="rating" value="1"><label class="full" for="star3" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star4" name="rating" value="1"><label class="full" for="star4" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star5" name="rating" value="1"><label class="full" for="star5" title="Awesome - 1 stars"></label>
+                     </div>
+                                    <p>10337 Reviews</p>
+                                </div>
+
+                                <div class="tagtxt">
+                                    <p>$ $ <span>Asian </span> <span>London, England</span> 0.2 mi</p>
+                                </div>
+                                <a href="#fts" data-toggle="modal" data-target="#fts" class="btn-default">Request A Match</a>
+                                <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 123 46 789</a>
+
+                                <p class="despt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row first">
+                            <div class="col-lg-4 col-md-4 col-sm-5">
+                                <img src="images/location-item.jpg" alt="location-item" width="100%" />
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-7">
+                                <h4><img src="images/small-icon.png" />Restaurant Name Here</h4>
+
+                                <div class="rewv">
+                                   <div class="rating">
+                        <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star2" name="rating" value="1"><label class="full" for="star2" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star3" name="rating" value="1"><label class="full" for="star3" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star4" name="rating" value="1"><label class="full" for="star4" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star5" name="rating" value="1"><label class="full" for="star5" title="Awesome - 1 stars"></label>
+                     </div>
+                                    <p>10337 Reviews</p>
+                                </div>
+
+                                <div class="tagtxt">
+                                    <p>$ $ <span>Asian </span> <span>London, England</span> 0.2 mi</p>
+                                </div>
+
+                                <a href="#fts" data-toggle="modal" data-target="#fts" class="btn-default">Request A Match</a>
+                                <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 123 46 789</a>
+
+                                <p class="despt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row first">
+                            <div class="col-lg-4 col-md-4 col-sm-5">
+                                <img src="images/location-item.jpg" alt="location-item" width="100%" />
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-7">
+                                <h4><img src="images/small-icon.png" />Restaurant Name Here</h4>
+<div class="rewv">
+                                   <div class="rating">
+                        <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star2" name="rating" value="1"><label class="full" for="star2" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star3" name="rating" value="1"><label class="full" for="star3" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star4" name="rating" value="1"><label class="full" for="star4" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star5" name="rating" value="1"><label class="full" for="star5" title="Awesome - 1 stars"></label>
+                     </div>
+                                    <p>10337 Reviews</p>
+                                </div>
+
+                                <div class="tagtxt">
+                                    <p>$ $ <span>Asian </span> <span>London, England</span> 0.2 mi</p>
+                                </div>
+
+                                <a href="#fts" data-toggle="modal" data-target="#fts" class="btn-default">Request A Match</a>
+                                <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 123 46 789</a>
+
+                                <p class="despt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row first">
+                            <div class="col-lg-4 col-md-4 col-sm-5">
+                                <img src="images/location-item.jpg" alt="location-item" width="100%" />
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-7">
+                                <h4><img src="images/small-icon.png" />Restaurant Name Here</h4>
+
+                                <div class="rewv">
+                                   <div class="rating">
+                        <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star2" name="rating" value="1"><label class="full" for="star2" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star3" name="rating" value="1"><label class="full" for="star3" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star4" name="rating" value="1"><label class="full" for="star4" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star5" name="rating" value="1"><label class="full" for="star5" title="Awesome - 1 stars"></label>
+                     </div>
+                                    <p>10337 Reviews</p>
+                                </div>
+
+                                <div class="tagtxt">
+                                    <p>$ $ <span>Asian </span> <span>London, England</span> 0.2 mi</p>
+                                </div>
+
+                                <a href="#fts" data-toggle="modal" data-target="#fts" class="btn-default">Request A Match</a>
+                                <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 123 46 789</a>
+
+                                <p class="despt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                            </div>
+                        </div>
+
+                        <div class="row first">
+                            <div class="col-lg-4 col-md-4 col-sm-5">
+                                <img src="images/location-item.jpg" alt="location-item" width="100%" />
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-7">
+                                <h4><img src="images/small-icon.png" />Restaurant Name Here</h4>
+
+                                <div class="rewv">
+                                   <div class="rating">
+                        <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star2" name="rating" value="1"><label class="full" for="star2" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star3" name="rating" value="1"><label class="full" for="star3" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star4" name="rating" value="1"><label class="full" for="star4" title="Awesome - 1 stars"></label>
+                        <input type="radio" id="star5" name="rating" value="1"><label class="full" for="star5" title="Awesome - 1 stars"></label>
+                     </div>
+                                    <p>10337 Reviews</p>
+                                </div>
+                                <div class="tagtxt">
+                                    <p>$ $ <span>Asian </span> <span>London, England</span> 0.2 mi</p>
+                                </div>
+
+                                <a href="#fts" data-toggle="modal" data-target="#fts" class="btn-default">Request A Match</a>
+                                <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 123 46 789</a>
+
+                                <p class="despt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12">
+                            <ul class="pagenation">
+                              <li><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li><a href="#">6</a></li>
+                              <li><a href="#">7</a></li>
+                              <li><a href="#">8</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- locations sec -->
+
+        <!-- Restaurtan join us -->
+        <div class="restarutjoinus">
+            <div class="imagbpx">
+                <img src="images/restaurant.jpg" alt="" width="100%">
+            <div class="captuion">
+                
+                    <h2>Restaurateurs Join Us</h2>
+                   <p>Join the more than 50,000 restaurants which fill seats and manage reservations with Match Watch</p>
+                   <a href="#restrtunt" data-toggle="modal" data-target="#restrtunt" class="btn-default">Learn More</a>
+                   <p>Favorite restaurant not yet on Match Watch ? Suggest a restaurant.</p>
+            </div>
+            </div>
+
+           
+        </div>
+
+        <!-- Begin: FOOTER -->
+        <footer>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-3">
+            <div class="ftr-logo wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+              <img src="images/ftr-logo.png" alt="">
+              <a href="">Register your location</a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="ftr-links wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+              <h4>Quick Links</h4>
+               <ul>
+                 <li><a href="">Home</a></li>
+                 <li><a href="">Our Story</a></li>
+                 <li><a href="">Get Started</a></li>
+                 <li><a href="">FAQ</a></li>
+                 <li><a href="">Testimonials</a></li>
+                 <li><a href="">Contact Us</a></li>
+               </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="ftr-links2 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+              <h4>Contact Info</h4>
+               <ul>
+                 <li><i class="fa fa-phone" aria-hidden="true"></i><a href="">Phone : 1 123 456 7890</a></li>
+                 <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="">Email : info@demolinks.com</a></li>
+                 <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="">Head Office: lorem ipsum Surprise, AZ 85378</a></li>
+               </ul>
+            </div>
+          </div>
+
+           <div class="col-md-3">
+            <div class="ftr-newsltr wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+              <h4>Join Our Newsletter</h4>
+               <div class="hdr-serach">
+                 <form>
+                   <input type="" name="" placeholder="Serach...">
+                   <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                 </form>
+               </div>
+               <img src="images/ply-stor.png" alt="">
+               <ul>
+                 <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                 <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                 <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                 <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+        <div class="copyrit">
+            <p>Copyright © 2020 demolink.com - All Rights Reserved.</p>
+        </div>
+        <!-- END Footer -->
+
+        <!-- Modal Sign Up -->
+
+       <div class="modal fade signupform" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <h2>Sign In</h2>
+       <form>
+         <input type="text" class="form-control" name="email" placeholder="Email Address">
+          <input type="Password" class="form-control" name="Password" placeholder="Password">
+          <button class="btn-default" type="submit" onclick="location.href='dashboard.html';">Continue</button>
+          <p>Lorem Ipsum is simply dummy text of the more then the
+printing and typesetting industry. <a href="signup.html"> Sign Up </a> </p>
+
+       </form>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        <!-- Modal Sign Up End-->
+
+        <!-- Modal Sign Up -->
+
+        <div class="modal fade signupform" id="exampleModalCenter12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9555283.067705087!2d-13.431189589289353!3d54.21844846191337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2s!4v1589831904742!5m2!1sen!2s"
+                            width="100%"
+                            height="450"
+                            frameborder="0"
+                            style="border: 0;"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Sign Up End-->
+
+         <!-- Modal Request -->
+
+        <div class="modal fade signupform" id="fts" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Request a match</h2>
+                        <form>
+                            <input type="text" class="form-control" name="" placeholder="Full Name" />
+                             <input type="text" class="form-control" name="" placeholder="Phone Number" />
+                              <input type="text" class="form-control" name="" placeholder="Date of match" />
+                              <textarea class="form-control">Message</textarea>
+                            <button class="btn-default" type="submit">Submit</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Request End-->
+
+         <!-- Modal restaurant -->
+
+        <div class="modal fade signupform sts" id="restrtunt" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>MatchWatch restaurant reservation software will work for your business</h2>
+                        <p>Fill out the form below to contact our sales team, and to receive email marketing communications from MatchWatch about news, events, promotions, and monthly newsletters. You can unsubscribe from MatchWatch emails at any time.</p>
+
+                        <div class="row">
+                            <form>
+                            <div class="col-md-6 col-sm-6">
+                                <input type="text" class="form-control" name="" placeholder="First Name" />
+                             <input type="text" class="form-control" name="" placeholder="Restaurant Name" />
+                              <input type="text" class="form-control" name="" placeholder="Phone Number" />
+                              
+                              <input type="text" class="form-control" name="" placeholder="Restaurant Country" />
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <input type="text" class="form-control" name="" placeholder="Last Name" />
+                             <input type="text" class="form-control" name="" placeholder="Restaurant City" />
+                              <input type="text" class="form-control" name="" placeholder="Restaurant Zip/ Postal Code" />
+                              <input type="text" class="form-control" name="" placeholder="Restaurant State/Province" />
+                            </div>
+                            <button class="btn-default" type="submit">Contact Us</button>
+                            </form>
+                        </div>
+                        
+                            
+                              
+                            
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal restaurant End-->
+
+       <!-- Placed at the end of the document so the pages load faster -->
+   <script src="js/all.js">
+   </script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js">
+   </script> 
+   <script src="js/custom.min.js">
+   </script>
+        <style type="text/css">
+            .dropdown-submenu {
+                position: relative;
+            }
+
+            .dropdown-submenu .dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: -1px;
+            }
+        </style>
+
+        <script>
+            $(document).ready(function () {
+                $(".dropdown-submenu a.test").on("click", function (e) {
+                    $(this).next("ul").toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </body>
+</html>
